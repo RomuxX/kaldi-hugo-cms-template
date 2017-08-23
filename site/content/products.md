@@ -1,5 +1,5 @@
 ---
-title: Our Coffee is jus de chaussette
+title: Our Coffee is trop sympa
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
