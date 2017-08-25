@@ -22,8 +22,7 @@ features:
       [More](scrum)
     image: /img/sbv-trello
   - contentmd: |-
-      # We have several tables for a client, project ... and spend our time to
-      switch between them
+      # We have several tables for a client, project ... and spend our time to switch between them
 
       ## with Project by Vince
 
@@ -53,6 +52,7 @@ buttonLinkBottom:
   label: null
   url: 'https://trello.com'
 showCTA: true
+showBookmarklet: false
 subtitle: + Trello
 ---
 

@@ -1,0 +1,15 @@
+
+<div class="infos">
+    
+    {{markdownify .Params.InfosBookmarklet.title}}
+    
+    <a {{if .Params.InfosBookmarklet.Link.url}} 
+    href="{{.Params.InfosBookmarklet.Link.url}}"
+     {{else}}
+                    disabled
+					{{end}}
+     target="_blank" rel="noreferrer noopener" class="link">
+        <span>{{.Params.InfosBookmarklet.Link.label}}</span>
+    </a>
+
+</div>

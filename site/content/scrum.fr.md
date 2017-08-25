@@ -7,7 +7,7 @@ headermd: |-
   # de **développement Agile** ?
 imageheadertop: /img/header-sbv-top
 imageheaderbottom: /img/header-sbv-bottom
-emoji: emoji
+emoji: 👌
 description: |-
   # Simplifiez-vous la vie sans changer vos habitudes !
   ## Créez vos listes, nommez vos cartes, estimez vos tâches...
@@ -15,7 +15,7 @@ description: |-
 features:
   - contentmd: |-
       # Adoptez une convention de nommage claire pour vos tableaux de sprints.
-      ## (fonctionne avec des emojis aussi )
+      ## (fonctionne avec des emojis aussi ❤ 😉 👍)
     image: /img/sprint-name
   - contentmd: |-
       # Visualisez l’état de vos sprints en un clin d’oeil.
@@ -38,5 +38,7 @@ buttonLinkBottom:
   label: Voir sur Trello
   url: 
 showCTA: true
+showBookmarklet: false
 subtitle: Scrum
+emailsubject: Question Scrum by Vince
 ---

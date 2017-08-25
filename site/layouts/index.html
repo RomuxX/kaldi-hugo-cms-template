@@ -7,12 +7,8 @@
 
     {{ partial "vince-content" . }}
 
-    {{if .Params.Infos}} 
-        {{ partial "vince-infos" . }}
-    {{end}}
-
     {{if .Params.showCTA }}
-    {{ partial "vince-cta" .Site }}
+        {{ partial "vince-cta" .Site }}
     {{end}}
 
     </section>

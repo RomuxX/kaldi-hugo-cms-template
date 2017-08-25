@@ -7,7 +7,7 @@ headermd: |-
   # **Agile workflow** ?
 imageheadertop: /img/header-sbv-top
 imageheaderbottom: /img/header-sbv-bottom
-emoji: emoji
+emoji: 👌
 description: |-
   # Don't change your habits, just make your life easier!
   ## Create lists, name cards, estimate your tasks … 
@@ -15,7 +15,7 @@ description: |-
 features:
   - contentmd: |-
       # Adopt a clear naming convention for your sprint boards.
-      ## (❤️mojis)
+      ##  (❤ ️emojis)
     image: /img/sprint-name
   - contentmd: |-
       # See sprint status in the blink of an eye.
@@ -38,5 +38,7 @@ buttonLinkBottom:
   label: See on Trello
   url: 
 showCTA: true
+showBookmarklet: false
 subtitle: Scrum
+emailsubject: Question Scrum by Vince
 ---

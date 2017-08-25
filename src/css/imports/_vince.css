@@ -514,7 +514,7 @@ h1 span {
   padding: 30px 10px;
 }
 
-.infos p{
+.infos h3{
   font-size:0.9em;
   font-weight:300;
   font-style:italic;
@@ -905,6 +905,11 @@ footer {
 
   }
 
+  .header .highlight{
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+
   .link-trello {
     display: none !important;
   }
@@ -912,17 +917,8 @@ footer {
   .trello .header .trello-screenshot-top{
     width:600px;
   }
+    
   
-  .bbv .content h2 {
-    width: 100%;
-    padding: 0 40px;
-  }
-  
-  .trello .content .timeline-content,
-  .bbv .content .timeline-content{
-    margin-top:60px;
-    text-align:left;
-  }
   
   .trello .content .timeline-content .panel-timeline,
   .bbv .content .timeline-content .panel-timeline{
@@ -932,13 +928,14 @@ footer {
   }
   
 
-  .trello .content .timeline-content .panel-timeline > div{
+  .trello .content .timeline-content .panel-timeline > div,
+  .bbv .content .timeline-content .panel-timeline > div{
   margin-left:0px;
   }
   
   
   .trello .content .timeline-content .panel-timeline > div,
-  .bbv .content .timeline-content .panel-timeline > span{
+  .bbv .content .timeline-content .panel-timeline > div{
     white-space: normal;
     margin-right: 0 !important;
     max-width: inherit !important;
@@ -949,7 +946,8 @@ footer {
     text-align: center;
     width: 100% !important;
   }
-    .trello .content .timeline-content .panel-timeline > div *{
+    .trello .content .timeline-content .panel-timeline > div *,
+    .bbv .content .timeline-content .panel-timeline > div *{
       text-align: left !important;
     }
 
@@ -962,10 +960,12 @@ footer {
       margin-left:0px;
     }
 
-    .trello .content .timeline-content .panel-timeline{
+    .trello .content .timeline-content .panel-timeline,
+    .bbv .content .timeline-content .panel-timeline{
       margin-bottom: 20px;
     }
-      .trello .content .timeline-content{
+      .trello .content .timeline-content,
+      .bbv .content .timeline-content{
       padding-top:0px;
       margin-top: 40px;
     }
@@ -1068,10 +1068,14 @@ footer {
 
 @media screen and (max-width: 640px) {
  
-  h1 {
+  .header h1 {
     font-size: 1.2em;
   }
   
+  .header .highlight{
+    margin-top:30px;
+    margin-bottom:30px;
+  }
   
   h2, .bbv-content .timeline-content .panel-timeline{
     font-size: 1em;

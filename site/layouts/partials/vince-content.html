@@ -10,6 +10,12 @@
     <div class="content-description">
         {{markdownify .Params.Description}}
     </div>
+
+    {{if .Params.Description2}}
+        <div class="content-description">
+            {{markdownify .Params.Description2}}
+        </div>
+    {{end}}
 	
     
     {{ if .Params.features }}
@@ -23,6 +29,8 @@
 			    <img src="{{.image}}.png" srcset="{{.image}}x2.png 2x, {{.image}}x3.png 3x">
 			</div>
         </div>
+        {{end}}
+    </div>
     {{ end }}
     
     <div class="content-more">
@@ -30,18 +38,8 @@
         {{markdownify .Params.MoreDescription}}
     </div>
         
-
-    </div>
-    {{ end }}
-    {{ if eq (.Params.SubType ) "project" }}
-        <img alt="" src="/img/{{.Params.SubType}}.png" srcset="/img/{{.Params.SubType}}x2.png 2x, /img/{{.Params.SubType}}x3.png 3x">
-        <h2>{{.Params.line1}}<br/>{{.Params.line2}}</h2>
-        <h3>{{.Params.line3}}</h3>
-        <h2>{{.Params.moreSurprises}}</h2>
-        
-    {{ end }}
     {{ if .Params.ButtonLinkBottom.label}}
-    <a {{if .Params.TrelloButton.url}} href="{{.Params.TrelloButton.url}}" {{else}}disabled{{end}}
+    <a {{if .Params.ButtonLinkBottom.url}} href="{{.Params.ButtonLinkBottom.url}}" {{else}}disabled{{end}}
                       rel="noreferrer noopener" class="link link-trello">
 						<svg viewBox="0 0 20 20" height="20px" width="20px" fill="#ffffff">
 						<use xlink:href="#icon-rocket"></use>

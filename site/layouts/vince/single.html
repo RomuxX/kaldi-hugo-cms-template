@@ -7,11 +7,10 @@
 
     {{ partial "vince-content" . }}
 
-    {{if .Params.Infos}} 
-        {{ partial "vince-infos" . }}
+    {{if .Params.showBookmarklet}} 
+        {{ partial "vince-bookmarklet" . }}
     {{end}}
 
-    
     {{ partial "vince-cta" .Site }}
     
     </section>
