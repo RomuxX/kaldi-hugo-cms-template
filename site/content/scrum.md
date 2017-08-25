@@ -17,28 +17,25 @@ features:
       # Adopt a clear naming convention for your sprint boards.
       ##  (❤ ️emojis)
     image: /img/sprint-name
-  - contentmd: |-
-      # See sprint status in the blink of an eye.
+  - contentmd: '# See sprint status in the blink of an eye.'
     image: /img/visualize
-  - contentmd: |-
-      # Track your sprint's burndown in Real Time.
+  - contentmd: '# Track your sprint''s burndown in Real Time.'
     image: /img/burndown
-  - contentmd: |-
-      # Create your Release Notes in one click.
+  - contentmd: '# Create your Release Notes in one click.'
     image: /img/releasenotes
-  - contentmd: |-
-      # Manage versioning for your completed sprints.
+  - contentmd: '# Manage versioning for your completed sprints.'
     image: /img/version
-more: |-
-moredescription: 
+more: ''
+moredescription: null
 buttonLinkTop:
   label: See on Trello
-  url: 
+  url: null
 buttonLinkBottom:
   label: See on Trello
-  url: 
+  url: null
 showCTA: true
 showBookmarklet: false
 subtitle: Scrum
 emailsubject: Question Scrum by Vince
 ---
+
