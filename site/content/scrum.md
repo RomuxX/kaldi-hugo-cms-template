@@ -5,8 +5,16 @@ subtype: sbv
 headermd: |-
   # Using **Trello** for your
   # **Agile workflow** ?
-imageheadertop: /img/header-sbv-top
-imageheaderbottom: /img/header-sbv-bottom
+headerimagetop: 
+  src: "/img/header-sbv-top"
+  type: "png"
+  id: "sbv-screenshot-top"
+  class: "trello-screenshot-top"
+headerimagebottom: 
+  src: "/img/header-sbv-bottom"
+  type: "png"
+  id: "sbv-screenshot-bottom"
+  class: "trello-screenshot-bottom"
 emoji: 👌
 description: |-
   # Don't change your habits, just make your life easier!

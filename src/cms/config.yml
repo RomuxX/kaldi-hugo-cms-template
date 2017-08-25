@@ -18,30 +18,30 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Image", name: "image", widget: "image", required: false}
   #     - {label: "MD", name: "md", widget: "markdown"}
   #     - {label: "Body", name: "body", widget: "markdown"}
-  # - name: "pages"
-  #   label: "Pages"
-  #   files:
-  #     - file: "site/content/products.md"
-  #       label: "Products Page"
-  #       name: "products"
-  #       fields:
-  #         - {label: Title, name: title, widget: string}
-  #         - {label: Type, name: type, widget: hidden, default: products}
-  #         - {label: Page, name: page, widget: hidden, default: "/products.html"}
-  #         - {label: Image, name: image, widget: image}
-  #         - {label: Heading, name: heading, widget: string}
-  #         - {label: Description, name: description, widget: string}
-  #         - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-  #         - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-  #         - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-  #         - {label: Full_image, name: full_image, widget: image}
-  #         - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/products.md"
+        label: "Products Page"
+        name: "products"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: products}
+          - {label: Page, name: page, widget: hidden, default: "/products.html"}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+          - {label: Full_image, name: full_image, widget: image}
+          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
   - name: "Home EN"
     label: "Home Page (EN)"
     files:
       - file: "site/content/_index.md"
         label: "Home Page (EN)"
-        name: "Vince + Trello (EN)"
+        name: "vince"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -49,8 +49,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -75,8 +75,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/fr/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -101,8 +101,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/scrum/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -127,8 +127,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/fr/scrum/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -153,8 +153,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/booklet/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -179,8 +179,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/fr/booklet/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
@@ -205,11 +205,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/project/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
-          - {label: Description2, name: description2, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget:"markdown" , required: false}
@@ -223,7 +222,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Project Page (FR)"
     files:
       - file: "site/content/project.fr.md"
-        label: "Project Page (FR)"
+        label: "sfsdfsdf Project Page (FR)"
         name: "Project (FR)"
         fields:
           - {label: "Page Title", name: title, widget: string}
@@ -232,11 +231,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Page, name: page, widget: hidden, default: "/fr/project/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
           - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: imageheadertop, widget: string}
-          - {label: Image header bottom, name: imageheaderbottom, widget: string}
+          - {label: Image header, name: imageheader, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
           - {label: Emoji, name: emoji, widget: string, required: false}
           - {label: Description, name: description, widget: "markdown"}
-          - {label: Description2, name: description2, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget:"markdown" , required: false}

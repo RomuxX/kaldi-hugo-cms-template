@@ -5,7 +5,11 @@ subtype: project
 headermd: |-
   # 🐘 + 👌
   # See BIGGER...
-imageheadertop: /img/header-project-top
+headerimagetop: 
+  src: "/img/header-project-top"
+  type: "png"
+  id: "project-screenshot-top"
+  class: "trello-screenshot-top"
 imageheaderbottom: 
 emoji: 
 description: |-
@@ -14,7 +18,6 @@ description: |-
   
   ![](/img/project.png)
 
-description2: |-
   ## Project by Vince will allow you to find quickly
   ## all boards to the same project 👀
   ### Based on a clear naming convention, Project by Vince'll retrieve all boards with an identical prefix. You will only have to scroll or select directly the one you need!

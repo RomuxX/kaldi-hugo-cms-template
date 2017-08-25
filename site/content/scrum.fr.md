@@ -5,8 +5,16 @@ subtype: sbv
 headermd: |-
   # Vous utilisez **Trello** pour gérer vos sprints
   # de **développement Agile** ?
-imageheadertop: /img/header-sbv-top
-imageheaderbottom: /img/header-sbv-bottom
+headerimagetop: 
+  src: "/img/header-sbv-top"
+  type: "png"
+  id: "sbv-screenshot-top"
+  class: "trello-screenshot-top"
+headerimagebottom: 
+  src: "/img/header-sbv-bottom"
+  type: "png"
+  id: "sbv-screenshot-bottom"
+  class: "trello-screenshot-bottom"
 emoji: 👌
 description: |-
   # Simplifiez-vous la vie sans changer vos habitudes !

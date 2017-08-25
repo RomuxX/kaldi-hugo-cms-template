@@ -4,8 +4,16 @@ type: vince
 subtype: bbv
 headermd: |-
   # Prenez le pouvoir sur **Trello** ! 👑 
-imageheadertop: /img/header-bbv-top
-imageheaderbottom: /img/header-bbv-bottom
+headerimagetop: 
+  src: "/img/header-bbv-top"
+  type: "png"
+  id: "bbv-screenshot-top"
+  class: "trello-screenshot-top"
+headerimagebottom: 
+  src: "/img/header-bbv-bottom"
+  type: "png"
+  id: "bbv-screenshot-bottom"
+  class: "trello-screenshot-bottom"
 emoji: 
 description: |-
   # Décuplez vos forces... 💪

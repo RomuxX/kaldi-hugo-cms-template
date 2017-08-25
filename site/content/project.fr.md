@@ -5,8 +5,12 @@ subtype: project
 headermd: |-
   # 🐘 + 👌
   # Voyez GRAND
-imageheadertop: /img/header-project-top
-imageheaderbottom: 
+headerimagetop: 
+  src: "/img/header-project-top"
+  type: "png"
+  id: "project-screenshot-top"
+  class: "trello-screenshot-top"
+headerimagebottom: 
 emoji: 
 description: |-
   # ...Sans vous y perdre !
@@ -14,7 +18,6 @@ description: |-
     
   ![](/img/project.png)
 
-description2: |-
   ## Project by Vince vous permettra de retrouver rapidement
   ## tous les tableaux liés au même projet  👀
   ### En se basant sur une convention de nommage simple et claire, Project by Vince récupérera l’intégralité des tableaux ayant un préfixe identique. Vous n’aurez plus qu’a scroller dans la liste des tableaux ou à rechercher directement celui dont vous avez besoin !

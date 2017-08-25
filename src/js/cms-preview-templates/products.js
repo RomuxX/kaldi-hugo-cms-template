@@ -10,6 +10,7 @@ export default class PostPreview extends React.Component {
     if (image && !image.fileObj) {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
+    
 
     return <div>
       <div className="pv5 pv6-l ph3 bg-center cover" style={{

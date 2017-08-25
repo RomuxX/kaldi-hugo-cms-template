@@ -9,7 +9,7 @@ export default class PostPreview extends React.Component {
     if (image && !image.fileObj) {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
-
+    
     return <div className="mw6 center ph3 pv4">
       <h1 className="f2 lh-title b mb3">{ entry.getIn(["data", "title"])}</h1>
       <div className="flex justify-between grey-3">

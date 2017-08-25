@@ -1,8 +1,9 @@
 <div class="content">
-    {{if .Params.imageheaderbottom}}
-        <img class="trello-screenshot-bottom" id="{{.Params.SubType}}-screenshot-bottom" src="{{.Params.imageheaderbottom}}.png" 
-	    srcset="{{.Params.imageheaderbottom}}x2.png 2x, {{.Params.imageheaderbottom}}x3.png 3x">
-    {{ end }}
+
+    {{if .Params.headerimagebottom}}
+	    {{partial "img" .Params.headerimagebottom}}
+	{{end}}
+    
 	{{ if .Params.Emoji }}
         <div class="emoji">{{.Params.Emoji}}</div>
     {{ end }}
@@ -17,7 +18,7 @@
         </div>
     {{end}}
 	
-    
+
     {{ if .Params.features }}
     <div class="timeline-content">
         {{ range .Params.features }}

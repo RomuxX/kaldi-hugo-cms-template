@@ -6,8 +6,12 @@ subtype: trello
 headermd: |-
  # Vous utilisez **Trello** ?
  # Nous aussi 😍
-imageheadertop: /img/header-trello-top
-imageheaderbottom: /img/header-trello-bottom
+headerimagetop: 
+  src: "/img/header-trello-top"
+  type: "png"
+  id: "trello-screenshot-top"
+  class: "trello-screenshot-top"
+headerimagebottom: 
 description: |-
  # Sur Trello, passez de 🤓 à 😎 !
  ## Découvrez notre suite de power-up pour aller encore plus loin dans la gestion de vos projets avec Trello.

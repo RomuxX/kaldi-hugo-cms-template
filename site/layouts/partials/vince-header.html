@@ -26,8 +26,7 @@
 				<div class="highlight">
 					{{markdownify .Params.headermd }}
 				</div>
-				{{if .Params.imageheadertop}}
-					<img class="trello-screenshot-top" id="{{.Params.SubType}}-screenshot-top" src="{{.Params.imageheadertop}}.png" 
-				    srcset="{{.Params.imageheadertop}}x2.png 2x, {{.Params.imageheadertop}}x3.png 3x">
+				{{with .Params.headerimagetop}}
+					{{partial "img" .}}
 				{{end}}
 			</div>
