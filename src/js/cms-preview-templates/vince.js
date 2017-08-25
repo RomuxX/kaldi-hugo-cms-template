@@ -69,7 +69,7 @@ export default class VincePreview extends React.Component {
             {widgetFor("description")}
           </div>
           
-          <div className="timeline-content">
+          { entry.getIn(["data", "features"]) && <div className="timeline-content">
           {(entry.getIn(["data", "features"]) || []).map((feature, index) =>
              <div className="panel-timeline" key={index}>
               <div>
@@ -79,7 +79,7 @@ export default class VincePreview extends React.Component {
                 {feature.get("image") && <img src={feature.get("image") + ".png"}/>}
                 </div>
             </div>)}
-          </div>
+          </div>}
 
 
           <div className="content-more">
