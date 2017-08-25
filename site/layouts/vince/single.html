@@ -11,7 +11,9 @@
         {{ partial "vince-bookmarklet" . }}
     {{end}}
 
-    {{ partial "vince-cta" .Site }}
+    {{if .Params.showCTA }}
+        {{ partial "vince-cta" .Site }}
+    {{end}}
     
     </section>
 </div>

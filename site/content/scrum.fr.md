@@ -37,7 +37,7 @@ features:
   - contentmd: |-
       # Gérez le versioning de vos sprints terminés.
     image: /img/version
-more: |-
+more: ''
 moredescription: 
 buttonLinkTop:
   label: Voir sur Trello

@@ -41,7 +41,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/_index.md"
         label: "Home Page (EN)"
-        name: "vince"
+        name: "vinceen"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -55,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -67,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/_index.fr.md"
         label: "Home Page (FR)"
-        name: "Vince + Trello (FR)"
+        name: "vincefr"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -93,7 +93,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/scrum.md"
         label: "Scrum Page (EN)"
-        name: "Scrum (EN)"
+        name: "scrumen"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -107,7 +107,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -119,7 +119,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/scrum.fr.md"
         label: "Scrum Page (FR)"
-        name: "Scrum (FR)"
+        name: "scrumfr"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -133,7 +133,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -145,7 +145,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/booklet.md"
         label: "Booklet Page (EN)"
-        name: "Booklet (EN)"
+        name: "bookleten"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -159,7 +159,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -171,7 +171,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/booklet.fr.md"
         label: "Booklet Page (FR)"
-        name: "Booklet (FR)"
+        name: "bookletfr"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -185,7 +185,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -197,7 +197,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/project.md"
         label: "Project Page (EN)"
-        name: "Project (EN)"
+        name: "projecten"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -211,7 +211,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
@@ -222,8 +222,8 @@ collections: # A list of collections the CMS should be able to edit
     label: "Project Page (FR)"
     files:
       - file: "site/content/project.fr.md"
-        label: "sfsdfsdf Project Page (FR)"
-        name: "Project (FR)"
+        label: "Project Page (FR)"
+        name: "projectfr"
         fields:
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
@@ -238,7 +238,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: "markdown"}
           - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
           - {label: More, name: more, widget: "markdown", required: false}
-          - {label: More Description, name: moredescription, widget:"markdown" , required: false}
+          - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}

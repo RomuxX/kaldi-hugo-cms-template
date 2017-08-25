@@ -12,13 +12,6 @@
         {{markdownify .Params.Description}}
     </div>
 
-    {{if .Params.Description2}}
-        <div class="content-description">
-            {{markdownify .Params.Description2}}
-        </div>
-    {{end}}
-	
-
     {{ if .Params.features }}
     <div class="timeline-content">
         {{ range .Params.features }}
