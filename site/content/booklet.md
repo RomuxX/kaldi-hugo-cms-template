@@ -44,7 +44,7 @@ buttonLinkBottom:
 showCTA: true
 showBookmarklet: true
 infosBookmarklet:
-  title: |-
+  contentmd: |-
     ## Also available as bookmarklets*
     ### *Bookmarklets are small applications you can bookmark in your browser.*
   link:

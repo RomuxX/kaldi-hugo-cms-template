@@ -93,14 +93,15 @@ export default class VincePreview extends React.Component {
 					  </svg>&nbsp;&nbsp;<span>{buttonLinkBottomLabel}</span>
             </a>}
         </div>
-        {/*{ showBookmarklet && <div className="infos">
-            {widgetFor ("infosbookmarklet.title")}
+        { showBookmarklet && <div className="infos">
+            {<ReactMarkdown source={entry.getIn(["data","infosbookmarklet", "contentmd"])} />}
             {buttonInfosBookmarkletLabel && <a href={buttonInfosBookmarkletUrl} rel="noreferrer noopener" className="link link-trello">
             	<svg viewBox="0 0 20 20" height="20px" width="20px" fill="#ffffff">
 						  <use href="#icon-rocket"></use>
 					  </svg>&nbsp;&nbsp;<span>{buttonInfosBookmarkletLabel}</span>
             </a>}
-          </div>}*/}
+          </div>
+          }
           { showCTA && <div className="vince-cta">
             
     <div>

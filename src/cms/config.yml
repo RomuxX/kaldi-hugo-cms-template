@@ -60,7 +60,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Home FR"
     label: "Home Page (FR)"
@@ -86,7 +86,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Scrum EN"
     label: "Scrum Page (EN)"
@@ -112,7 +112,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Scrum FR"
     label: "Scrum Page (FR)"
@@ -138,7 +138,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Booklet EN"
     label: "Booklet Page (EN)"
@@ -164,7 +164,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Booklet FR"
     label: "Booklet Page (FR)"
@@ -190,7 +190,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Project EN"
     label: "Project Page (EN)"
@@ -216,7 +216,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Project FR"
     label: "Project Page (FR)"
@@ -243,6 +243,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: "Show CTA ?", name: showCTA, widget: boolean}
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
-          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
+          - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   
