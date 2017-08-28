@@ -1,0 +1,24 @@
+{{ partial "head" . }}
+
+{{$page404 := $.Param "page404"}}
+
+<div id="wrap">
+    <section id="page-404">
+        <div class="header">
+				<div class="title">
+					<a href="https://vince.run" target="_blank" rel="noreferrer noopener">
+						<img alt="" src="https://static.vince.run/vince-logo.png" width="114" height="47"/>
+					</a>
+					
+				</div>
+				<div class="highlight">
+					{{.Content}}                    
+				</div>
+			</div>
+    </section>
+</div>
+
+{{ partial "vince-footer" . }}
+
+
+
