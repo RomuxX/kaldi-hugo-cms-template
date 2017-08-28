@@ -1,0 +1,24 @@
+{{ partial "head" . }}
+
+<div id="wrap">
+    <section id="{{.Params.subtype}}">
+    
+    {{ partial "vince-header" . }}
+
+    {{ partial "vince-content" . }}
+
+    {{if .Params.showBookmarklet}} 
+        {{ partial "vince-bookmarklet" . }}
+    {{end}}
+
+    {{if .Params.showCTA }}
+        {{ partial "vince-cta" .Site }}
+    {{end}}
+
+    </section>
+</div>
+
+{{ partial "vince-footer" . }}
+
+
+
