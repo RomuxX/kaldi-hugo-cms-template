@@ -1,6 +1,4 @@
-
-  
-<div class="header">
+ <div class="header">
 				<div class="title">
 					{{if ne .Params.SubType "trello"}}
 						<span>{{.Params.SubTitle}}</span>&nbsp;<span>by</span>
@@ -13,6 +11,7 @@
 					{{end}}
 					
 				</div>
+				{{if .Params.ButtonLinkTop.label}} 
 				<a {{if .Params.ButtonLinkTop.url}} 
 					href="{{.Params.buttonLinkTop.url}}"
 					{{else}}
@@ -23,6 +22,7 @@
 						<use xlink:href="#icon-rocket"></use>
 					</svg>&nbsp;&nbsp;<span>{{.Params.ButtonLinkTop.label}}</span>
 				</a>
+				{{end}}
 				<div class="highlight">
 					{{markdownify .Params.headermd }}
 				</div>

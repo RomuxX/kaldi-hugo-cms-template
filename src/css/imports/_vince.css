@@ -154,7 +154,7 @@ h1 span {
 
 
 
-#bbv, #sbv, #project, #trello {
+#bbv, #sbv, #project, #trello, #page-404 {
   width: 100%;
 }
 
@@ -226,6 +226,25 @@ h1 span {
   cursor: pointer;
 }
 
+#page-404 .header{
+  height:calc(100vh - 220px);
+  display:flex;
+  flex-direction: column;
+}
+
+#page-404 .header h2{
+  color: #4d4d4d;
+}
+
+#page-404 .header h3{
+  font-size:0.8em;
+  color: #787778;
+}
+
+#page-404 .header .highlight{
+  /*margin-bottom: 20px;*/
+  margin:auto;
+}
 
 
 .content {
