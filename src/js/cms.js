@@ -4,6 +4,8 @@ import CMS from "netlify-cms";
 import PostPreview from "./cms-preview-templates/post";
 import ProductsPreview from "./cms-preview-templates/products";
 import VincePreview from "./cms-preview-templates/vince";
+import Page404Preview from "./cms-preview-templates/page404";
+
 
 
 
@@ -30,4 +32,5 @@ CMS.registerPreviewTemplate("bookleten", VincePreview);
 CMS.registerPreviewTemplate("bookletfr", VincePreview);
 CMS.registerPreviewTemplate("projecten", VincePreview);
 CMS.registerPreviewTemplate("projectfr", VincePreview);
+CMS.registerPreviewTemplate("page404", Page404Preview);
 CMS.registerWidget("color", ColorControl);

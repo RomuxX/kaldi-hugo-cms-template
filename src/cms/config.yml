@@ -245,4 +245,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
-            
+  - name: "Page 404"
+    label: "Page 404"
+    files:
+      - file: "site/content/404.md"
+        label: "Page 404"
+        name: "page404"
+        fields:
+          - {label: "Page Title", name: title, widget: string}
+          - {label: Type, name: type, widget: hidden}
+          - {label: SubType, name: subtype, widget: hidden}
+          - {label: "Body", name: "body", widget: "markdown"}
