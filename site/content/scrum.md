@@ -1,5 +1,5 @@
 ---
-title: Scrum by Vince
+title: Scrum by Vince for Trello
 type: vince
 subtype: sbv
 headermd: |-

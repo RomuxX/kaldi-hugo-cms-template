@@ -1,5 +1,5 @@
 ---
-title: Booklet by Vince
+title: Booklet by Vince for Trello
 type: vince
 subtype: bbv
 headermd: |-

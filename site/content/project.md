@@ -1,5 +1,5 @@
 ---
-title: Project by Vince
+title: Project by Vince for Trello
 type: vince
 subtype: project
 headermd: |-
