@@ -1,5 +1,5 @@
 ---
-title: "Our Coffee is jus de chaussette \uD83D\uDE00"
+title: "Our Coffee is jus de chaussette"
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
