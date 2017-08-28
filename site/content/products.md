@@ -1,5 +1,5 @@
 ---
-title: Our Coffee is jus de chaussette
+title: "Our Coffee is jus de chaussette"
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
@@ -99,5 +99,6 @@ pricing:
       plan: Custom
       price: '?'
 ---
+
 
 
