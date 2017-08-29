@@ -12,7 +12,7 @@ function showDefaultHowPopup() {
 
 function showHowPopup(src, modalmaxwidth) {
   var date = new Date()
-  var html = '<div><img style="width: 100%; height: 100%" src="' + src + "'?v=" + date.getTime() + '"/></div>';
+  var html = '<div><img style="width: 100%; height: 100%" src="' + src + "?v=" + date.getTime() + '"/></div>';
   swal({
     title: "",
     showConfirmButton: false,
