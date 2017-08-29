@@ -256,3 +256,5 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Type, name: type, widget: hidden}
           - {label: SubType, name: subtype, widget: hidden}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Label not found", name: labelnotfound, widget: string}
+          

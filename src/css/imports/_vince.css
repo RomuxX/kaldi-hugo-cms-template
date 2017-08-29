@@ -231,21 +231,28 @@ h1 span {
 }
 
 #page-404 .header{
-  height:calc(100vh - 220px);
+  height:100vh;
   display:flex;
   flex-direction: column;
   overflow-wrap: hidden;
   position: relative;
   padding-top:0px;
-  z-index:0;
 }
 
 #page-404 .header .title{
   margin-top: 30px;
 }
 
-#page-404 .header .title, #page-404 .header .highlight {
+#page-404 .header div {
   z-index: 10;
+}
+
+#page-404 .header .panel-not-found{
+  background-color: #520030;
+  height: 40px;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 10px;
 }
 
 #page-404 .header .spiral{
