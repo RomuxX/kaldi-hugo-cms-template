@@ -235,36 +235,28 @@ h1 span {
   display:flex;
   flex-direction: column;
   overflow-wrap: hidden;
+  position: relative;
+  padding-top:0px;
+  z-index:0;
 }
 
+#page-404 .header .title{
+  margin-top: 30px;
+}
+
+#page-404 .header .title, #page-404 .header .highlight {
+  z-index: 10;
+}
 
 #page-404 .header .spiral{
+  z-index:0;
   position: absolute;
   height: 100%;
   width: 100%;
   background-image: url('/img/spiral-404.svg');
   background-repeat:no-repeat;
   background-position:center center;
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration:2s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-timing-function:linear;
-  -moz-animation-name: rotate;
-  -moz-animation-duration:2s;
-  -moz-animation-iteration-count:infinite;
-  -moz-animation-timing-function:linear;
-  overflow: hidden;
-  
-}
-
-@-webkit-keyframes rotate {
-  from {-webkit-transform:rotate(0deg);}
-  to {  -webkit-transform:rotate(360deg);}
-}
-
-@-moz-keyframes rotate {
-  from {-moz-transform:rotate(0deg);}
-  to {  -moz-transform:rotate(360deg);}
+  background-size: cover;
 }
 
 #page-404 .header h2{
