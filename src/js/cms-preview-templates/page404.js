@@ -17,7 +17,8 @@ export default class Page404Preview extends React.Component {
           <div className="highlight">
 				    { widgetFor("body") }
 				  </div>
-          
+          <div class="spiral">
+            </div>
         </div>
         </section>
       </div>

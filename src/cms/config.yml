@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
   #         - {label: Full_image, name: full_image, widget: image}
   #         - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
   - name: "Home EN"
-    label: "Home Page (EN)"
+    label: "Home Pages (EN)"
     files:
       - file: "site/content/_index.md"
         label: "Home Page (EN)"
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Home FR"
-    label: "Home Page (FR)"
+    label: "Home Pages (FR)"
     files:
       - file: "site/content/_index.fr.md"
         label: "Home Page (FR)"
@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Scrum EN"
-    label: "Scrum Page (EN)"
+    label: "Scrum Pages (EN)"
     files:
       - file: "site/content/scrum.md"
         label: "Scrum Page (EN)"
@@ -115,7 +115,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Scrum FR"
-    label: "Scrum Page (FR)"
+    label: "Scrum Pages (FR)"
     files:
       - file: "site/content/scrum.fr.md"
         label: "Scrum Page (FR)"
@@ -141,7 +141,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Booklet EN"
-    label: "Booklet Page (EN)"
+    label: "Booklet Pages (EN)"
     files:
       - file: "site/content/booklet.md"
         label: "Booklet Page (EN)"
@@ -167,7 +167,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Booklet FR"
-    label: "Booklet Page (FR)"
+    label: "Booklet Pages (FR)"
     files:
       - file: "site/content/booklet.fr.md"
         label: "Booklet Page (FR)"
@@ -193,7 +193,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Project EN"
-    label: "Project Page (EN)"
+    label: "Project Pages (EN)"
     files:
       - file: "site/content/project.md"
         label: "Project Page (EN)"
@@ -219,7 +219,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Project FR"
-    label: "Project Page (FR)"
+    label: "Project Pages (FR)"
     files:
       - file: "site/content/project.fr.md"
         label: "Project Page (FR)"
@@ -246,7 +246,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
   - name: "Page 404"
-    label: "Page 404"
+    label: "404 Pages"
     files:
       - file: "site/content/404.md"
         label: "Page 404"

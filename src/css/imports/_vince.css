@@ -226,10 +226,45 @@ h1 span {
   cursor: pointer;
 }
 
+#page-404{
+  overflow: hidden;
+}
+
 #page-404 .header{
   height:calc(100vh - 220px);
   display:flex;
   flex-direction: column;
+  overflow-wrap: hidden;
+}
+
+
+#page-404 .header .spiral{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('/img/spiral-404.svg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration:2s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration:2s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-timing-function:linear;
+  overflow: hidden;
+  
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {  -webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+  from {-moz-transform:rotate(0deg);}
+  to {  -moz-transform:rotate(360deg);}
 }
 
 #page-404 .header h2{
@@ -415,12 +450,12 @@ h1 span {
   width: 24px;
 }
 
-.sbv .content .timeline-content .content-more{
+.sbv .content .content-more{
   position: relative;
-  height: 100px;
+  height: 110px;
 }
 
-.sbv .content .timeline-content .content-more::before {
+.sbv .content .content-more::before {
   content:'';
   position: absolute;
   margin: auto;
@@ -431,7 +466,7 @@ h1 span {
   width: 94px;
   height: 94px;
   left: calc(50% - 48px);
-  background-image: url('../img/congrats.png');
+  background-image: url('/img/congrats.png');
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -724,7 +759,7 @@ footer {
   align-items: flex-end;
   justify-content: space-between;
   color:#FFF;
-  background-image: url('../img/vince-footer.svg');
+  background-image: url('/img/vince-footer.svg');
   background-repeat:no-repeat;
   background-position:left bottom;
 }
