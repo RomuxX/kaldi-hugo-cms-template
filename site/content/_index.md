@@ -59,7 +59,7 @@ showCTA: true
 showBookmarklet: false
 subtitle: + Trello
 metaDescription: Discover our power-up suite to go even further in the management of your projects with Trello.
-metaUrl: /
-metaImage: /img/header-trello-top.png
+metaUrl: http://trello-vince-run.netlify.com
+metaImage: https://static.vince.run/vince-trello.png
 ---
 

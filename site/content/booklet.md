@@ -53,6 +53,6 @@ infosBookmarklet:
 subtitle: Booklet
 emailsubject: Question Booklet by Vince
 metaDescription: Lighten your cards, group them in checklists, simplify your Release Notes... Make your life easier with the Booklet by Vince power-up.
-metaUrl: /booklet
-metaImage: /img/bbv-trello-top.png
+metaUrl: http://trello-vince-run.netlify.com/booklet
+metaImage: https://static.vince.run/bbv-trello.png
 ---

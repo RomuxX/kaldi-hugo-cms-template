@@ -50,6 +50,6 @@ buttonLinkBottom:
 showCTA: true
 showBookmarklet: false
 metaDescription: Découvrez notre suite de power-up pour aller encore plus loin dans la gestion de vos projets avec Trello.
-metaUrl: /
-metaImage: /img/header-trello-top.png
+metaUrl: http://trello-vince-run.netlify.com/fr
+metaImage: https://static.vince.run/vince-trello.png
 ---
