@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+/power-ups/scrum/*     https://vince-trello-powerups-scrum.netlify.com/:splat 200
+/power-ups/booklet/*   https://vince-trello-powerups-booklet.netlify.com/:splat 200
+/power-ups/project/*   https://vince-trello-powerups-project.netlify.com/:splat 200
