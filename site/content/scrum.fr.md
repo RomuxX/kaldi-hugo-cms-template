@@ -51,5 +51,5 @@ subtitle: Scrum
 emailsubject: Question Scrum by Vince
 metaDescription: Créez vos listes, nommez vos cartes, estimez vos tâches… et allez encore plus loin avec Trello grâce à Scrum by Vince !
 metaUrl: http://trello-vince-run.netlify.com/fr/scrum/
-metaImage: https://static.vince.run/sbv-trello.png
+metaImage: /img/sbv-trello.png
 ---
