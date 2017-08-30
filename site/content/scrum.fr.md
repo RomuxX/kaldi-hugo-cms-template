@@ -19,7 +19,7 @@ emoji: 👌
 description: |-
   # Simplifiez-vous la vie sans changer vos habitudes !
   ## Créez vos listes, nommez vos cartes, estimez vos tâches...
-  ## et allez encore plus loin avec Trello grâce à Scrum by VinceCreate lists, name cards, estimate your tasks ...
+  ## et allez encore plus loin avec Trello grâce à Scrum by Vince !
 features:
   - contentmd: |-
       # Adoptez une convention de nommage claire pour vos tableaux de sprints.
@@ -49,4 +49,7 @@ showCTA: true
 showBookmarklet: false
 subtitle: Scrum
 emailsubject: Question Scrum by Vince
+metaDescription: Créez vos listes, nommez vos cartes, estimez vos tâches… et allez encore plus loin avec Trello grâce à Scrum by Vince !
+metaUrl: /fr/scrum
+metaImage: /img/sbv-trello-top.png
 ---

@@ -39,4 +39,7 @@ infosBookmarklet:
     url:  
 subtitle: Project
 emailsubject: Question Project by Vince
+metaDescription: Multiply projects, multiply board, and don’t worry with the Project by Vince power-up!
+metaUrl: /project
+metaImage: /img/project-trello-top.png
 ---

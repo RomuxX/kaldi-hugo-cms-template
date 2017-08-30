@@ -62,6 +62,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Home FR"
     label: "Home Pages (FR)"
     files:
@@ -88,6 +91,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Scrum EN"
     label: "Scrum Pages (EN)"
     files:
@@ -114,6 +120,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Scrum FR"
     label: "Scrum Pages (FR)"
     files:
@@ -140,6 +149,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Booklet EN"
     label: "Booklet Pages (EN)"
     files:
@@ -166,6 +178,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Booklet FR"
     label: "Booklet Pages (FR)"
     files:
@@ -192,6 +207,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Project EN"
     label: "Project Pages (EN)"
     files:
@@ -218,6 +236,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Project FR"
     label: "Project Pages (FR)"
     files:
@@ -245,6 +266,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
   - name: "Page 404"
     label: "404 Pages"
     files:
@@ -257,4 +281,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Label not found", name: labelnotfound, widget: string}
+          - {label: "Meta Description", name: metaDescription, widget: text, required: false}
+          - {label: "Meta Url", name: metaUrl, widget: text, required: false}
+          - {label: "Meta Image", name: metaImage, widget: text, required: false}
           

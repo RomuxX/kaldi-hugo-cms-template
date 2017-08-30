@@ -45,5 +45,8 @@ showCTA: true
 showBookmarklet: false
 subtitle: Scrum
 emailsubject: Question Scrum by Vince
+metaDescription: Create lists, name cards, estimate your tasks... and go even further with Trello thanks to Scrum by Vince!
+metaUrl: /fr/scrum
+metaImage: /img/sbv-trello-top.png
 ---
 

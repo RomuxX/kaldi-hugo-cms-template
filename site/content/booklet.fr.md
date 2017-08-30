@@ -52,4 +52,7 @@ infosBookmarklet:
     url:  https://ucaya.github.io/trello-bookmarklets/
 subtitle: Booklet
 emailsubject: Question Booklet by Vince
+metaDescription: Allégez vos cartes, regroupez-les en checklists, facilitez vos Release Notes… Simplifiez-vous la vie avec le power-up Booklet by Vince.
+metaUrl: /fr/booklet
+metaImage: /img/bbv-trello-top.png
 ---
