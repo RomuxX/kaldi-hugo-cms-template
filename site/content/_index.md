@@ -47,7 +47,7 @@ features:
 
       [View feature](booklet)
     image: /img/bbv-trello
-more: '## We sometimes manage projects in Kanban'
+more: '## We sometimes manage projects in Kanban :grin:'
 moredescription: '### Coming soon'
 buttonLinkTop:
   label: View your Trello boards
