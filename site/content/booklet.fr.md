@@ -1,59 +1,45 @@
 ---
-title: Booklet by Vince for Trello
+title: TEST Project by Vince for Trello
 type: vince
-subtype: bbv
+subtype: project
 headermd: |-
-  # Prenez le pouvoir sur **Trello** ! 👑 
+  # 🐘 + 👌
+  # See BIGGER...
 headerimagetop: 
-  src: "/img/header-bbv-top"
+  src: "/img/header-project-top"
   type: "png"
-  id: "bbv-screenshot-top"
+  id: "project-screenshot-top"
   class: "trello-screenshot-top"
-headerimagebottom: 
-  src: "/img/header-bbv-bottom"
-  type: "png"
-  id: "bbv-screenshot-bottom"
-  class: "trello-screenshot-bottom"
+imageheaderbottom: 
 emoji: 
 description: |-
-  # Décuplez vos forces... 💪
-  ## Allégez vos cartes, regroupez-les en checklists, facilitez vos Release Notes...
-  ## Simplifiez-vous la vie avec le power-up Booklet by Vince.
-features:
-  - contentmd: |-
-      # Générez un document au format markdown prêt à être partagé depuis votre tableau, vos listes, ou vos cartes
-    image: /img/releasenotes
-  - contentmd: |-
-      # Regroupez rapidement une liste de cartes dans une checklist
-    image: /img/listtochecklist
-  - contentmd: |-
-      # Exportez directement vos données sous forme de fichier Excel
-    image: /img/excel
-  - contentmd: |-
-      # Copiez ou déplacez simplement vos cartes entre vos tableaux
-    image: /img/copy
+  # ...Without getting lost!
+  ## Multiply projects, multiply board, and don't worry !
+  
+  ![](/img/project.png)
+
+  ## Project by Vince will allow you to find quickly
+  ## all boards to the same project 👀
+  ### Based on a clear naming convention, Project by Vince'll retrieve all boards with an identical prefix. You will only have to scroll or select directly the one you need!
 more: |-
-  # ...
+  ## More surprises coming soon 🎁!
 moredescription: 
 buttonLinkTop:
-  label: Voir sur Trello
+  label: See on Trello
   url: 
 buttonLinkBottom:
-  label: Voir sur Trello
+  label: 
   url: 
 showCTA: true
-showBookmarklet: true
+showBookmarklet: false
 infosBookmarklet:
-  title: |-
-    ## Également disponible sous forme de bookmarklets*
-    ### *Les Bookmarklets sont de petits programmes pouvant être stockés en favoris dans votre navigateur.*
+  title:
   link:
-    label: Allez à la page
-    url:  https://ucaya.github.io/trello-bookmarklets/
-subtitle: Booklet
-emailsubject: Question Booklet by Vince
-metaDescription: Allégez vos cartes, regroupez-les en checklists, facilitez vos Release Notes… Simplifiez-vous la vie avec le power-up Booklet by Vince.
-metaUrl: http://trello-vince-run.netlify.com/fr/booklet
-metaImage: https://static.vince.run/bbv-trello.png
+    label: 
+    url:  
+subtitle: Project
+emailsubject: Question Project by Vince
+metaDescription: Multiply projects, multiply board, and don’t worry with the Project by Vince power-up!
+metaUrl: http://trello-vince-run.netlify.com/project
+metaImage: https://static.vince.run/project-trello.png
 ---
-Test
