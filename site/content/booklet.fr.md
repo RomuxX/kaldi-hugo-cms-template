@@ -21,6 +21,7 @@ description: |-
   ## Project by Vince will allow you to find quickly
   ## all boards to the same project 👀
   ### Based on a clear naming convention, Project by Vince'll retrieve all boards with an identical prefix. You will only have to scroll or select directly the one you need!
+features:
 more: |-
   ## More surprises coming soon 🎁!
 moredescription: 
