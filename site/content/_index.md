@@ -4,7 +4,7 @@ type: vince
 subtype: trello
 headermd: |-
   # Using **Trello** ?
-  # Us too 😍
+  # Us too 😍 
 headerimagetop: 
   src: "/img/header-trello-top"
   type: "png"
@@ -47,7 +47,7 @@ features:
 
       [View feature](booklet)
     image: /img/bbv-trello
-more: '## We sometimes manage projects in Kanban'
+more: '## We sometimes manage projects in Kanban :grin:'
 moredescription: '### Coming soon'
 buttonLinkTop:
   label: View your Trello boards
