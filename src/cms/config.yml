@@ -283,7 +283,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Page 404"
         name: "page404"
         fields:
-          - {label: "Page Title", name: title, widget: string}
+          - {label: "Page Title", name: title, widget: "markdown"}
           - {label: Type, name: type, widget: hidden}
           - {label: SubType, name: subtype, widget: hidden}
           - {label: "Body", name: "body", widget: "markdown", required: false}
