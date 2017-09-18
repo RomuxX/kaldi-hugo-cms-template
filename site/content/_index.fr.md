@@ -14,27 +14,22 @@ headerimagetop:
 headerimagebottom: 
 description: |-
  # Sur Trello, passez de 🤓 à 😎 !
- ## Découvrez notre suite de power-up pour aller encore plus loin dans la gestion de vos projets avec Trello.
- ### C'est parce qu’ils nous manquaient que nous les avons créer…
+ ## Découvrez notre suite de Power-Up pour aller encore plus loin dans la gestion de vos projets avec Trello.
+ ### C'est parce qu’ils nous manquaient que nous les avons créés…
 features:
   - contentmd: |-
-     # Nous gérons des projets en Scrum
-     ## avec Scrum by Vince
-     ### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in Ut enim ad minim veniam. cididunt. 
+     # Nous gérons des projets agiles avec Scrum by Vince
      [En savoir plus](scrum)
     image: /img/sbv-trello
   - contentmd: |-
-     # Nous avons plusieurs tableaux pour un client, projet… et passons notre temps à basculer entre eux
-     ## avec Project by Vince
-     ### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in Ut enim ad minim veniam. cididunt. 
+     # Nous avons plusieurs tableaux pour un client, projet... et gagnons beaucoup de temps à basculer entre eux
+     # avec Project by Vince
      [Découvrez toutes les possibilités](project)
     image: /img/project-trello
   - contentmd: |-
      # Nous gérons et déplaçons beaucoup de cartes 
-     # et à partir de celles-ci générons un grand nombre
-     # de document (release notes, Excel…)
-     ## avec Booklet by Vince
-     ### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in Ut enim ad minim veniam. cididunt. 
+     # et à partir de celles-ci générons un grand nombre de document (release notes, Excel…)
+     # avec Booklet by Vince
      [Découvrez toutes les possibilités](booklet)
     image: /img/bbv-trello
 more: |-
@@ -49,7 +44,8 @@ buttonLinkBottom:
   url: 
 showCTA: true
 showBookmarklet: false
-metaDescription: Découvrez notre suite de power-up pour aller encore plus loin dans la gestion de vos projets avec Trello.
-metaUrl: http://trello-vince-run.netlify.com/fr
+metaDescription: Découvrez notre suite de Power-Up pour aller encore plus loin dans la gestion de vos projets avec Trello.
+metaUrl: http://trello.vince.run/fr
 metaImage: https://static.vince.run/vince-trello.png
+metaTitle: Vince + Trello
 ---

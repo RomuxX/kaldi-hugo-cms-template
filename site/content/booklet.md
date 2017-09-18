@@ -17,8 +17,8 @@ headerimagebottom:
 emoji: 
 description: |-
   # Boost yourself... 💪
-  ## Lighten your cards, group them in checklists, simplify your Release Notes ...
-  ## Make your life easier with the Booklet by Vince power-up.
+  ## Lighten your cards, group them in checklists, simplify your Release notes ...
+  ## Make your life easier with the Booklet by Vince Power-Up.
 features:
   - contentmd: |-
       # Generate a document ready to share in markdown format from your board, lists or cards
@@ -52,7 +52,8 @@ infosBookmarklet:
     url:  https://ucaya.github.io/trello-bookmarklets/
 subtitle: Booklet
 emailsubject: Question Booklet by Vince
-metaDescription: Lighten your cards, group them in checklists, simplify your Release Notes... Make your life easier with the Booklet by Vince power-up.
-metaUrl: http://trello-vince-run.netlify.com/booklet
+metaDescription: Lighten your cards, group them in checklists, simplify your Release notes... Make your life easier with the Booklet by Vince Power-Up!
+metaUrl: http://trello.vince.run/booklet
 metaImage: https://static.vince.run/bbv-trello.png
+metaTitle: Booklet by Vince for Trello
 ---

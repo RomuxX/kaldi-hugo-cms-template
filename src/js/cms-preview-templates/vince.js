@@ -15,10 +15,10 @@ export default class VincePreview extends React.Component {
     }
 
     const subType = entry.getIn(["data", "subtype"]);
-    const buttonLinkTopUrl = entry.getIn(["data", "buttonlinktop", "url"]);
+    const buttonLinkTopUrl = entry.getIn(["data", "buttonLinkTop", "url"]);
     const buttonLinkTopLabel = entry.getIn(["data", "buttonLinkTop", "label"]);
-    const buttonLinkBottomUrl = entry.getIn(["data", "buttonlinkbottom", "url"]);
-    const buttonLinkBottomLabel = entry.getIn(["data", "buttonLinkbottom", "label"]);
+    const buttonLinkBottomUrl = entry.getIn(["data", "buttonLinkBottom", "url"]);
+    const buttonLinkBottomLabel = entry.getIn(["data", "buttonLinkBottom", "label"]);
 
     const buttonInfosBookmarkletUrl = entry.getIn(["data", "infosBookmarklet", "link", "url"]);
     const buttonInfosBookmarkletLabel = entry.getIn(["data", "infosBookmarklet", "link", "label"]);
@@ -51,7 +51,7 @@ export default class VincePreview extends React.Component {
 					  </a>
             {panelAfterTitle}
           </div>
-          { buttonLinkTopLabel && <a href={buttonLinkTopUrl} rel="noreferrer noopener" className="link link-trello">
+          { buttonLinkTopLabel && <a  disabled={!buttonLinkTopUrl} href={buttonLinkTopUrl} rel="noreferrer noopener" className="link link-trello">
 				  	<svg viewBox="0 0 20 20" height="20px" width="20px" fill="#ffffff">
 						  <use href="#icon-rocket"></use>
 					  </svg>&nbsp;&nbsp;<span>{buttonLinkTopLabel}</span>
@@ -60,10 +60,10 @@ export default class VincePreview extends React.Component {
           <div className="highlight">
 				    { widgetFor("headermd") }
 				  </div>
-          < Utils.Img entry={entry} field="headerimagetop" />
+          { entry.getIn(["data", "headerimagetop", "src"]) && < Utils.Img entry={entry} field="headerimagetop" />}
         </div>
         <div className="content">
-          < Utils.Img entry={entry} field="headerimagebottom" />
+          { entry.getIn(["data", "headerimagebottom", "src"]) && < Utils.Img entry={entry} field="headerimagebottom" />}
           <div className="emoji">{entry.getIn(["data", "emoji"])}</div>
           <div className="content-description">
             {widgetFor("description")}
@@ -81,13 +81,11 @@ export default class VincePreview extends React.Component {
             </div>)}
           </div>}
 
-
           <div className="content-more">
             { widgetFor("more")}
             { widgetFor("moredescription")}
           </div>
-          
-          {buttonLinkBottomLabel && <a href={buttonLinkBottomUrl} rel="noreferrer noopener" className="link link-trello">
+          {buttonLinkBottomLabel && <a disabled={!buttonLinkBottomUrl} href={buttonLinkBottomUrl} rel="noreferrer noopener" className="link link-trello">
             	<svg viewBox="0 0 20 20" height="20px" width="20px" fill="#ffffff">
 						  <use href="#icon-rocket"></use>
 					  </svg>&nbsp;&nbsp;<span>{buttonLinkBottomLabel}</span>

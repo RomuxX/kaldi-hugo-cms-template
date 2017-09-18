@@ -3,6 +3,7 @@ baseurl = "/"
 languageCode = "fr-fr"
 DefaultContentLanguage = "en"
 disable404 = "true"
+enableEmoji = "true"
 
 [params]
 intercomAppId = "w3mgqeel"
@@ -11,13 +12,11 @@ title = "Vince + Trello"
 
 [Languages]
 [Languages.en]
-page404Old = { header  = {line1 = "# 🐰⏰",
-line2 = "## «  If you knew Time as well as I do, said the Hatter, you would know that he is not lost. It loses himself. »", line3 = "###  *Lewis Carroll, Alice au pays des merveilles*"}}
 cta = { title = "Time Tracking sounds like", subtitle = "We agree.", description = "So we created Vince, and it's getting better 👍", link = { label = "More about Vince", url ="https://vince.run"}}
 footer = { year = "2017 UCAYA", 
             whoVince = {title = "Who's Vince ?",
                         description1 = "Vince is a new approach to project monitoring",  
-                        description2 = "Management, tracking, analyse : fing out what it can do for you.",
+                        description2 = "Management, tracking, analyze: find out what it can do for you.",
                         legals = "Vince is in no way affiliated, nor associated with Trello, Inc."},
             ourProducts = { title = "Our products",
                         products = [{ title = "Vince", target="_blank", url = "https://vince.run"},
@@ -32,8 +31,6 @@ footer = { year = "2017 UCAYA",
                          { title = "hello@vince.run", url = "mailto:hello@vince.run", urlConcat="true" }]}}
 
 [Languages.fr]
-page404Old = { header  = {line1 = "# 🐰⏰",
-line2 = "## «  Si vous connaissiez le Temps aussi bien que moi, dit le Chapelier, vous sauriez qu'on ne le perd pas. Il se perd tout seul. »", line3 = "###  *Lewis Carroll, Alice au pays des merveilles*"}}
 cta = { title = "Le Time tracking vous fait", subtitle = "Nous aussi.", description = "Alors on a créé Vince, et depuis ça va mieux 👍", link = { label = "En savoir plus", url ="https://vince.run"}}
 footer = { year = "2017 UCAYA", 
             whoVince = {title = "Qui est Vince ?",

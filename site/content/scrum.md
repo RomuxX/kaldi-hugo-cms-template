@@ -37,16 +37,17 @@ more: ''
 moredescription: null
 buttonLinkTop:
   label: See on Trello
-  url: null
+  url: 
 buttonLinkBottom:
   label: See on Trello
-  url: null
+  url: 
 showCTA: true
 showBookmarklet: false
 subtitle: Scrum
 emailsubject: Question Scrum by Vince
 metaDescription: Create lists, name cards, estimate your tasks... and go even further with Trello thanks to Scrum by Vince!
-metaUrl: http://trello-vince-run.netlify.com/scrum
+metaUrl: http://trello.vince.run/scrum
 metaImage: https://static.vince.run/sbv-trello.png
+metaTitle: Scrum by Vince for Trello
 ---
 

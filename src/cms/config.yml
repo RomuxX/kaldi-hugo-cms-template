@@ -48,23 +48,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden, default: "trello"}
           - {label: Page, name: page, widget: hidden, default: "/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Home FR"
     label: "Home Pages (FR)"
     files:
@@ -77,23 +78,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden, default: "trello"}
           - {label: Page, name: page, widget: hidden, default: "/fr/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Scrum EN"
     label: "Scrum Pages (EN)"
     files:
@@ -106,23 +108,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/scrum/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Scrum FR"
     label: "Scrum Pages (FR)"
     files:
@@ -135,23 +138,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/fr/scrum/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Url, name: url, widget: string}, {label: Label, name: label, widget: string} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Booklet EN"
     label: "Booklet Pages (EN)"
     files:
@@ -164,23 +168,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/booklet/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Booklet FR"
     label: "Booklet Pages (FR)"
     files:
@@ -193,23 +198,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/fr/booklet/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Project EN"
     label: "Project Pages (EN)"
     files:
@@ -222,23 +228,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/project/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
   - name: "Project FR"
     label: "Project Pages (FR)"
     files:
@@ -251,25 +258,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: SubType, name: subtype, widget: hidden}
           - {label: Page, name: page, widget: hidden, default: "/fr/project/index.html"}
           - {label: Sub title, name: subtitle, widget: string, required: false}          
-          - {label: Header, name: headermd, widget: "markdown"}
-          - {label: Image header, name: imageheader, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
-          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ]}
+          - {label: Header, name: headermd, widget: "markdown", required: false}
+          - {label: Image header top, name: headerimagetop, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
+          - {label: Image header bottom, name: headerimagebottom, widget: object, fields: [{label: Id, name: id, widget: string}, {label: Source, name: src, widget: string},{label: Class, name: class, widget: string}, {label: Type, name: type, widget: string} ], required: false}
           - {label: Emoji, name: emoji, widget: string, required: false}
-          - {label: Description, name: description, widget: "markdown"}
-          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ]}
+          - {label: Description, name: description, widget: "markdown", required: false}
+          - {label: Features, name: features, widget: list, fields: [{label: Content, name: contentmd, widget: "markdown"},{label: Image, name: image, widget: string} ], required: false}
           - {label: More, name: more, widget: "markdown", required: false}
           - {label: More Description, name: moredescription, widget: "markdown" , required: false}
           - {label: Button Top, name: buttonLinkTop, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
           - {label: Button Bottom, name: buttonLinkBottom, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Url, name: url, widget: string} ], required: false}
-          - {label: "Show CTA ?", name: showCTA, widget: boolean}
-          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean}
+          - {label: "Show CTA ?", name: showCTA, widget: boolean, required: false}
+          - {label: "Show Bookmarklet ?", name: showBookmarklet, widget: boolean, required: false}
           - {label: "Infos Bookmarklet", name: infosBookmarklet, widget: object, fields: [{label: Content, name: contentmd, widget: "markdown"}, {label: Link, name: link, widget: object, fields: [{label: Url, name: url, widget: string}, {label: Label, name: label, widget: string}]} ], required: false}
           - {label: Email subject, name: emailsubject, widget: text, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
-  - name: "Page 404"
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
+  - name: "404 Page"
     label: "404 Pages"
     files:
       - file: "site/content/404.md"
@@ -279,9 +286,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Page Title", name: title, widget: string}
           - {label: Type, name: type, widget: hidden}
           - {label: SubType, name: subtype, widget: hidden}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Label not found", name: labelnotfound, widget: string}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+          - {label: "Label not found", name: labelnotfound, widget: string, required: false}
           - {label: "Meta Description", name: metaDescription, widget: text, required: false}
           - {label: "Meta Url", name: metaUrl, widget: text, required: false}
           - {label: "Meta Image", name: metaImage, widget: text, required: false}
+          - {label: "Meta Title", name: metaTitle, widget: text, required: false}
           

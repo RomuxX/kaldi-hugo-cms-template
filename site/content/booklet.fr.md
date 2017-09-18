@@ -17,7 +17,7 @@ headerimagebottom:
 emoji: 
 description: |-
   # Décuplez vos forces... 💪
-  ## Allégez vos cartes, regroupez-les en checklists, facilitez vos Release Notes...
+  ## Allégez vos cartes, regroupez-les en checklists, facilitez vos Release notes...
   ## Simplifiez-vous la vie avec le power-up Booklet by Vince.
 features:
   - contentmd: |-
@@ -52,7 +52,8 @@ infosBookmarklet:
     url:  https://ucaya.github.io/trello-bookmarklets/
 subtitle: Booklet
 emailsubject: Question Booklet by Vince
-metaDescription: Allégez vos cartes, regroupez-les en checklists, facilitez vos Release Notes… Simplifiez-vous la vie avec le power-up Booklet by Vince.
-metaUrl: http://trello-vince-run.netlify.com/fr/booklet
+metaDescription: Allégez vos cartes, regroupez-les en checklists, facilitez vos Release notes… Simplifiez-vous la vie avec le Power-Up Booklet by Vince !
+metaUrl: http://trello.vince.run/fr/booklet
 metaImage: https://static.vince.run/bbv-trello.png
+metaTitle: Booklet by Vince for Trello
 ---

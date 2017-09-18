@@ -39,7 +39,8 @@ infosBookmarklet:
     url:  
 subtitle: Project
 emailsubject: Question Project by Vince
-metaDescription: Multipliez les projets, multipliez les tableaux, et ne vous inquiétez plus avec le power-up Project by Vince!
-metaUrl: http://trello-vince-run.netlify.com/fr/project
+metaDescription: Multipliez les projets, multipliez les tableaux, et ne vous inquiétez plus avec le Power-Up Project by Vince !
+metaUrl: http://trello.vince.run/fr/project
 metaImage: https://static.vince.run/project-trello.png
+metaTitle: Project by Vince for Trello
 ---
